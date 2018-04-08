@@ -1,0 +1,49 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+section.choice-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.choice-grid div {
+    
+    margin-bottom: 20px;
+    border: 1px thick #dcdcdc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column {
+    width: 32.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    flex-wrap: nowrap;
+}
+
+.column > div {
+    /* display: block; */
+    background: #f4f4f4;
+}
+
+
+.column img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+#restartButton {
+    width: 33%;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* .checkbox {
+    position: relative;
+    left: -29%;
+    top: 30px;
+} */
+
